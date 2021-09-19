@@ -1,0 +1,48 @@
+:root{
+    --background-color: #36393B;
+    --text-color: #A5D8FF;
+    --alert-m-color: #c49799;
+}
+body{
+    margin: 0;
+    text-align: center;
+    padding: 5rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-color);
+    border-radius: 8px;
+}
+
+input {
+    margin: 1rem;
+    padding: 0.8rem;
+    color: var(--alert-m-color);
+}
+
+h1:hover {
+    color: var(--alert-m-color);
+}
+
+#output-box{
+    margin: 0.5rem;
+    color:var(--alert-m-color);
+    font-size: larger;
+    font-family: sans-serif;
+    padding: 0.5rem;
+}
+
+#sumbit-btn{
+    margin: 1rem;
+    padding: 0.8rem;
+    width: 50%;
+    cursor: pointer;
+    background-color: var(--text-color);
+    border: none;
+}
